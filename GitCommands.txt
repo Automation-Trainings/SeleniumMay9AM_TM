@@ -1,0 +1,20 @@
+git init
+git status
+git add *, -A, <filename>
+git commit -m ""
+git clone <copy URL from repo>
+git push
+git pull
+
+
+
+git add
+git commit
+git push
+
+
+git remote add origin https://github.com/Automation-Trainings/SeleniumMay9AM_TM.git
+git branch -M main
+git push -u origin main
+
+https://www.atlassian.com/git/glossary
