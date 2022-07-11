@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">400,930</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.TC_04_ApproveLeave</td><td><a href="#m0">TC101_LoginPage</a></td><td rowspan="1">1657256540577</td><td rowspan="1">17875</td></tr><tr class="failedeven"><td><a href="#m1">TC102_LoginPage</a></td><td rowspan="1">1657256560220</td><td rowspan="1">19488</td></tr><tr class="failedeven"><td><a href="#m2">TC103_LoginPage</a></td><td rowspan="1">1657256581812</td><td rowspan="1">17357</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.TC_03_AddEntitlements</td><td><a href="#m3">TC101_LoginPage</a></td><td rowspan="1">1657256274672</td><td rowspan="1">48490</td></tr><tr class="passedeven"><td><a href="#m4">TC102_LoginPage</a></td><td rowspan="1">1657256325420</td><td rowspan="1">22873</td></tr><tr class="passedeven"><td><a href="#m5">TC103_LoginPage</a></td><td rowspan="1">1657256351160</td><td rowspan="1">22307</td></tr><tr class="passedodd"><td rowspan="3">tests.TC_05_AddEmployee</td><td><a href="#m6">TC101_LoginPage</a></td><td rowspan="1">1657256202011</td><td rowspan="1">22665</td></tr><tr class="passedodd"><td><a href="#m7">TC102_LoginPage</a></td><td rowspan="1">1657256227038</td><td rowspan="1">23139</td></tr><tr class="passedodd"><td><a href="#m8">TC103_LoginPage</a></td><td rowspan="1">1657256252427</td><td rowspan="1">20020</td></tr><tr class="passedeven"><td rowspan="3">tests.TC_06_ApplyLeave</td><td><a href="#m9">TC101_LoginPage</a></td><td rowspan="1">1657256375780</td><td rowspan="1">45978</td></tr><tr class="passedeven"><td><a href="#m10">TC102_LoginPage</a></td><td rowspan="1">1657256424920</td><td rowspan="1">57245</td></tr><tr class="passedeven"><td><a href="#m11">TC103_LoginPage</a></td><td rowspan="1">1657256484330</td><td rowspan="1">53162</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">tests.TC_04_ApproveLeave#TC101_LoginPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;JINTU&apos;, ip: &apos;192.168.29.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf21728ea7b342b0225d2b5b3daf6511
+*** Element info: {Using=xpath, value=//*[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.ApproveLeavePage_HRM.leaveActions(ApproveLeavePage_HRM.java:27)
+	at tests.TC_04_ApproveLeave.TC101_LoginPage(TC_04_ApproveLeave.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.TC_04_ApproveLeave#TC102_LoginPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;JINTU&apos;, ip: &apos;192.168.29.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0f55b02dcda1ed7a4da32e250464fe9
+*** Element info: {Using=xpath, value=//*[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.ApproveLeavePage_HRM.leaveActions(ApproveLeavePage_HRM.java:27)
+	at tests.TC_04_ApproveLeave.TC102_LoginPage(TC_04_ApproveLeave.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.TC_04_ApproveLeave#TC103_LoginPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;JINTU&apos;, ip: &apos;192.168.29.14&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 74cc34cc63fe9d25046dcae65ecd576b
+*** Element info: {Using=xpath, value=//*[@id=&apos;resultTable&apos;]/tbody/tr[1]/td[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.ApproveLeavePage_HRM.leaveActions(ApproveLeavePage_HRM.java:27)
+	at tests.TC_04_ApproveLeave.TC103_LoginPage(TC_04_ApproveLeave.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.TC_03_AddEntitlements#TC101_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.TC_03_AddEntitlements#TC102_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.TC_03_AddEntitlements#TC103_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.TC_05_AddEmployee#TC101_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.TC_05_AddEmployee#TC102_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.TC_05_AddEmployee#TC103_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.TC_06_ApplyLeave#TC101_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.TC_06_ApplyLeave#TC102_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.TC_06_ApplyLeave#TC103_LoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

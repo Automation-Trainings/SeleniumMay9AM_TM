@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="18" passed="9" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-08T10:26:38 IST" name="Suite" finished-at="2022-07-08T10:33:19 IST" duration-ms="400930">
+    <groups>
+    </groups>
+    <test started-at="2022-07-08T10:26:38 IST" name="Test" finished-at="2022-07-08T10:33:19 IST" duration-ms="400930">
+      <class name="tests.TC_05_AddEmployee">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:26:37 IST" name="BeforeSuite" finished-at="2022-07-08T10:26:38 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:26:38 IST" name="launchBrowser" finished-at="2022-07-08T10:26:42 IST" duration-ms="3344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_05_AddEmployee.TC101_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC101_LoginPage()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:26:42 IST" name="TC101_LoginPage" finished-at="2022-07-08T10:27:04 IST" duration-ms="22665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:27:04 IST" name="closeBrowser" finished-at="2022-07-08T10:27:04 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:27:04 IST" name="launchBrowser" finished-at="2022-07-08T10:27:07 IST" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_05_AddEmployee.TC102_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC102_LoginPage()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:27:07 IST" name="TC102_LoginPage" finished-at="2022-07-08T10:27:30 IST" duration-ms="23139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:27:30 IST" name="closeBrowser" finished-at="2022-07-08T10:27:30 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:27:30 IST" name="launchBrowser" finished-at="2022-07-08T10:27:32 IST" duration-ms="1996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_05_AddEmployee.TC103_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC103_LoginPage()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:27:32 IST" name="TC103_LoginPage" finished-at="2022-07-08T10:27:52 IST" duration-ms="20020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC103_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:27:52 IST" name="closeBrowser" finished-at="2022-07-08T10:27:52 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="toEnd()[pri:0, instance:tests.TC_05_AddEmployee@53aac487]" started-at="2022-07-08T10:33:19 IST" name="toEnd" finished-at="2022-07-08T10:33:25 IST" duration-ms="6352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toEnd -->
+      </class> <!-- tests.TC_05_AddEmployee -->
+      <class name="tests.TC_06_ApplyLeave">
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:29:33 IST" name="launchBrowser" finished-at="2022-07-08T10:29:35 IST" duration-ms="2094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_06_ApplyLeave.TC101_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC101_LoginPage()[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:29:35 IST" name="TC101_LoginPage" finished-at="2022-07-08T10:30:21 IST" duration-ms="45978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:30:21 IST" name="closeBrowser" finished-at="2022-07-08T10:30:22 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:30:22 IST" name="launchBrowser" finished-at="2022-07-08T10:30:24 IST" duration-ms="2901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_06_ApplyLeave.TC102_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC102_LoginPage()[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:30:24 IST" name="TC102_LoginPage" finished-at="2022-07-08T10:31:22 IST" duration-ms="57245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:31:22 IST" name="closeBrowser" finished-at="2022-07-08T10:31:22 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:31:22 IST" name="launchBrowser" finished-at="2022-07-08T10:31:24 IST" duration-ms="1939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_06_ApplyLeave.TC103_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC103_LoginPage()[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:31:24 IST" name="TC103_LoginPage" finished-at="2022-07-08T10:32:17 IST" duration-ms="53162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC103_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_06_ApplyLeave@3527942a]" started-at="2022-07-08T10:32:17 IST" name="closeBrowser" finished-at="2022-07-08T10:32:18 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_06_ApplyLeave -->
+      <class name="tests.TC_04_ApproveLeave">
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:32:18 IST" name="launchBrowser" finished-at="2022-07-08T10:32:20 IST" duration-ms="2401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_04_ApproveLeave.TC101_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC101_LoginPage()[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:32:20 IST" name="TC101_LoginPage" finished-at="2022-07-08T10:32:38 IST" duration-ms="17875" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'JINTU', ip: '192.168.29.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf21728ea7b342b0225d2b5b3daf6511
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[1]/td[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'JINTU', ip: '192.168.29.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf21728ea7b342b0225d2b5b3daf6511
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[1]/td[2]}
+at jdk.internal.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.ApproveLeavePage_HRM.leaveActions(ApproveLeavePage_HRM.java:27)
+at tests.TC_04_ApproveLeave.TC101_LoginPage(TC_04_ApproveLeave.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:32:38 IST" name="closeBrowser" finished-at="2022-07-08T10:32:38 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:32:38 IST" name="launchBrowser" finished-at="2022-07-08T10:32:40 IST" duration-ms="1426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_04_ApproveLeave.TC102_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC102_LoginPage()[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:32:40 IST" name="TC102_LoginPage" finished-at="2022-07-08T10:32:59 IST" duration-ms="19488" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'JINTU', ip: '192.168.29.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0f55b02dcda1ed7a4da32e250464fe9
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[1]/td[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'JINTU', ip: '192.168.29.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63437}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0f55b02dcda1ed7a4da32e250464fe9
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[1]/td[2]}
+at jdk.internal.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.ApproveLeavePage_HRM.leaveActions(ApproveLeavePage_HRM.java:27)
+at tests.TC_04_ApproveLeave.TC102_LoginPage(TC_04_ApproveLeave.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:32:59 IST" name="closeBrowser" finished-at="2022-07-08T10:33:00 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:33:00 IST" name="launchBrowser" finished-at="2022-07-08T10:33:01 IST" duration-ms="1798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_04_ApproveLeave.TC103_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC103_LoginPage()[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:33:01 IST" name="TC103_LoginPage" finished-at="2022-07-08T10:33:19 IST" duration-ms="17357" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'JINTU', ip: '192.168.29.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 74cc34cc63fe9d25046dcae65ecd576b
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[1]/td[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='resultTable']/tbody/tr[1]/td[2]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'JINTU', ip: '192.168.29.14', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.24 (e47b049c438c..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63460}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 74cc34cc63fe9d25046dcae65ecd576b
+*** Element info: {Using=xpath, value=//*[@id='resultTable']/tbody/tr[1]/td[2]}
+at jdk.internal.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at pages.ApproveLeavePage_HRM.leaveActions(ApproveLeavePage_HRM.java:27)
+at tests.TC_04_ApproveLeave.TC103_LoginPage(TC_04_ApproveLeave.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC103_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_04_ApproveLeave@942a29c]" started-at="2022-07-08T10:33:19 IST" name="closeBrowser" finished-at="2022-07-08T10:33:19 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_04_ApproveLeave -->
+      <class name="tests.TC_03_AddEntitlements">
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:27:52 IST" name="launchBrowser" finished-at="2022-07-08T10:27:54 IST" duration-ms="1980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_03_AddEntitlements.TC101_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC101_LoginPage()[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:27:54 IST" name="TC101_LoginPage" finished-at="2022-07-08T10:28:43 IST" duration-ms="48490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC101_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:28:43 IST" name="closeBrowser" finished-at="2022-07-08T10:28:43 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:28:43 IST" name="launchBrowser" finished-at="2022-07-08T10:28:45 IST" duration-ms="2028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_03_AddEntitlements.TC102_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC102_LoginPage()[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:28:45 IST" name="TC102_LoginPage" finished-at="2022-07-08T10:29:08 IST" duration-ms="22873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC102_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:29:08 IST" name="closeBrowser" finished-at="2022-07-08T10:29:08 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.reflect.Method)[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:29:08 IST" name="launchBrowser" finished-at="2022-07-08T10:29:11 IST" duration-ms="2587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TC_03_AddEntitlements.TC103_LoginPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TC103_LoginPage()[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:29:11 IST" name="TC103_LoginPage" finished-at="2022-07-08T10:29:33 IST" duration-ms="22307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC103_LoginPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_03_AddEntitlements@2d52216b]" started-at="2022-07-08T10:29:33 IST" name="closeBrowser" finished-at="2022-07-08T10:29:33 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_03_AddEntitlements -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
